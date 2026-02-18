@@ -553,7 +553,7 @@ export default function LandingPage() {
           </div>
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
             <span>
-              Portfolio project — Built with ❤️ by Andrés
+              Portfolio project
             </span>
           </div>
         </div>
