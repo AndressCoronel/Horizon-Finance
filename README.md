@@ -8,7 +8,7 @@ Horizon Finance es una aplicación robusta de tecnología financiera (Fintech) d
 
 | Panel de Inversiones | Análisis de Cartera | Historial de Transacciones |
 | :---: | :---: | :---: |
-| ![Dashboard](./screenshots/finance-dashboard.png) | ![Portfolio](./screenshots/portfolio.png) | ![Transactions](./screenshots/transactions.png) |
+| ![Dashboard](./screenshots/dashboard.png) | ![Portfolio](./screenshots/portfolio.png) | ![Transactions](./screenshots/transactions.png) |
 
 
 ## 🚀 Características Principales
