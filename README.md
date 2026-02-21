@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💰 Horizon Finance - Plataforma de Inversión y Gestión Financiera
 
-## Getting Started
+Horizon Finance es una aplicación robusta de tecnología financiera (Fintech) diseñada para ayudar a los usuarios a gestionar activos, visualizar rendimientos y administrar sus finanzas personales con una interfaz profesional y segura.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🖼️ Vista Previa del Proyecto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Panel de Inversiones | Análisis de Cartera | Historial de Transacciones |
+| :---: | :---: | :---: |
+| ![Dashboard](./screenshots/finance-dashboard.png) | ![Portfolio](./screenshots/portfolio.png) | ![Transactions](./screenshots/transactions.png) |
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Características Principales
 
-## Learn More
+* **Dashboard Financiero:** Visualización clara de saldos, ingresos y egresos mediante gráficos interactivos.
+* **Gestión de Activos:** Módulo para el seguimiento de inversiones y rendimientos en tiempo real.
+* **Historial Inteligente:** Registro detallado de movimientos financieros con filtros avanzados.
+* **Seguridad de Datos:** Implementación de prácticas seguras para el manejo de información sensible y estados financieros.
+* **Interfaz de Alta Gama:** Diseño limpio y profesional enfocado en la confianza del usuario (UI/UX).
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Stack Tecnológico
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Frontend:** Next.js (App Router), TypeScript, Tailwind CSS.
+* **Gráficos:** [Recharts / Chart.js - especificar la librería que usaste] para la visualización de datos.
+* **Base de Datos:** PostgreSQL con Prisma ORM (Manejo de relaciones complejas entre usuarios y transacciones).
+* **Autenticación:** [Clerk / NextAuth - especificar].
+* **Despliegue:** Vercel.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📐 Valor Agregado para Clientes (Freelance)
+Este proyecto demuestra mi capacidad para construir herramientas críticas donde la precisión es lo más importante:
+1.  **Manejo de Datos Complejos:** Experiencia procesando cálculos financieros y relaciones de datos en la DB.
+2.  **Visualización de Datos:** Capacidad para transformar números crudos en gráficos fáciles de entender para el cliente final.
+3.  **Rendimiento:** Optimización de consultas para asegurar que la información financiera cargue al instante.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<details>
+  <summary>🛠️ <b>Instrucciones de Instalación (Técnico)</b></summary>
+
+### Configuración local:
+
+1.  **Clonar:**
+    ```bash
+    git clone [https://github.com/AndressCoronel/Horizon-Finance.git](https://github.com/AndressCoronel/Horizon-Finance.git)
+    cd Horizon-Finance
+    ```
+
+2.  **Instalar:** `npm install`
+3.  **Variables de Entorno:** Configurar `.env` con las credenciales de la DB y Auth.
+4.  **Prisma:** `npx prisma generate` y `npx prisma db push`.
+5.  **Ejecutar:** `npm run dev`
+</details>
+
+---
+Desarrollado por **[Andres Coronel](https://github.com/AndressCoronel)** *Desarrollador Full-Stack especializado en soluciones Fintech.*
